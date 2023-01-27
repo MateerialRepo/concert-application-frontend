@@ -8,9 +8,8 @@ const Concerts = () => {
     <>
       <div>
         <h1>All Concerts</h1>
-
         <div>
-          <ConcertList items={DUMMY_CONCERTS} />
+            <ConcertList items={DUMMY_CONCERTS} />
         </div>
       </div>
     </>
