@@ -14,7 +14,7 @@ const ConcertList = (props) => {
                 id={item.id}
                 image={item.image}
                 title={item.title}
-                description={item.description}
+                // description={item.description}
                 date={item.date}
                 location={item.location}
             />

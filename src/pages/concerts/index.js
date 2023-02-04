@@ -1,8 +1,8 @@
-import ConcertList from '@/components/ConcertList';
+import ConcertList from '@/components/concerts/ConcertList';
 import DUMMY_CONCERTS from '@/data/dummy-data';
 
 const Concerts = () => {
-  console.log(DUMMY_CONCERTS)
+  //console.log(DUMMY_CONCERTS)
 
   return (
     <>
