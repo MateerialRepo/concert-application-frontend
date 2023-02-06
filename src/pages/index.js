@@ -1,4 +1,4 @@
-import ConcertList from '@/components/ConcertList'
+import ConcertList from '@/components/concerts/ConcertList';
 import { getFeaturedConcerts } from '@/helpers/concertHelperFns'
 import DUMMY_CONCERTS from '@/data/dummy-data'
 

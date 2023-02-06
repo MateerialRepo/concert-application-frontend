@@ -1,19 +1,17 @@
-import ConcertList from '@/components/concerts/ConcertList';
-import DUMMY_CONCERTS from '@/data/dummy-data';
+import DUMMY_CONCERTS from "@/data/dummy-data";
+import ConcertList from "@/components/concerts/ConcertList";
 
 const Concerts = () => {
-  //console.log(DUMMY_CONCERTS)
-
   return (
     <>
       <div>
         <h1>All Concerts</h1>
         <div>
-            <ConcertList items={DUMMY_CONCERTS} />
+          <ConcertList items={DUMMY_CONCERTS} />
         </div>
       </div>
     </>
   );
-}
-
-export default Concerts
+};
+ 
+export default Concerts;
